@@ -1,0 +1,41 @@
+{
+  "name": "TAXPRO Malaysia — Borang B Tax Engine",
+  "short_name": "TAXPRO",
+  "description": "Multi-tenant Malaysian Tax and Financial SaaS for Section 4(a) F&B and Section 4(d) Rental Income",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#ea580c",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Scan Receipt",
+      "short_name": "Scanner",
+      "description": "Capture receipt with thermal paper enhancement",
+      "url": "/?tab=scanner",
+      "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Log Mileage",
+      "short_name": "Mileage",
+      "description": "Record business travel trip",
+      "url": "/?tab=mileage",
+      "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
+    },
+    {
+      "name": "Borang B Audit",
+      "short_name": "Tax Audit",
+      "description": "Run LHDN pre-flight tax audit",
+      "url": "/?tab=audit",
+      "icons": [{ "src": "/favicon.svg", "sizes": "96x96" }]
+    }
+  ]
+}
