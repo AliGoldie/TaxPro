@@ -1,0 +1,60 @@
+export const WORKSPACES = {
+  munchieskk: {
+    id: 'munchieskk',
+    name: 'MUNCHIESKK (Food & Beverage)',
+    shortName: 'MUNCHIESKK',
+    category: 'Food & Beverage / Restaurant',
+    regNumber: 'SSM: 202303124567 (00348219-X)',
+    tinNumber: 'TIN: C 2849102801',
+    regime: 'Borang B / Sole Proprietor F&B',
+    theme: {
+      palette: 'warm',
+      primary: 'bg-orange-500',
+      primaryHover: 'hover:bg-orange-600',
+      primaryActive: 'bg-orange-600',
+      primaryText: 'text-orange-600',
+      primaryLight: 'bg-orange-50',
+      primaryBorder: 'border-orange-500',
+      primaryRing: 'focus:ring-orange-500',
+      accentGradient: 'from-orange-500 via-amber-500 to-amber-600',
+      badgeBg: 'bg-amber-100 text-amber-800 border-amber-200',
+      highlightDot: 'bg-orange-500',
+    },
+    currency: 'MYR',
+    stats: {
+      ytdRevenue: 184500,
+      ytdExpenses: 112430,
+      pendingReceipts: 3,
+      taxAuditReadiness: 68,
+    }
+  },
+  rental: {
+    id: 'rental',
+    name: 'Rental Properties',
+    shortName: 'Rental Portfolio',
+    category: 'Real Estate / Residential & Commercial',
+    regNumber: 'SSM: Non-Registered / Individual Form B',
+    tinNumber: 'TIN: SG 1938472904',
+    regime: 'Section 4(d) Rental Income / Form B',
+    theme: {
+      palette: 'cool',
+      primary: 'bg-blue-600',
+      primaryHover: 'hover:bg-blue-700',
+      primaryActive: 'bg-blue-700',
+      primaryText: 'text-blue-600',
+      primaryLight: 'bg-blue-50',
+      primaryBorder: 'border-blue-600',
+      primaryRing: 'focus:ring-blue-600',
+      accentGradient: 'from-blue-600 via-teal-500 to-teal-600',
+      badgeBg: 'bg-blue-100 text-blue-800 border-blue-200',
+      highlightDot: 'bg-blue-600',
+    },
+    currency: 'MYR',
+    stats: {
+      ytdRevenue: 78000,
+      ytdExpenses: 28400,
+      pendingReceipts: 2,
+      taxAuditReadiness: 74,
+    }
+  }
+};

@@ -1,0 +1,10 @@
+/* Custom animations */
+@keyframes shutterFlash {
+  0% { opacity: 0; }
+  50% { opacity: 0.9; }
+  100% { opacity: 0; }
+}
+
+.animate-shutter {
+  animation: shutterFlash 0.25s ease-out forwards;
+}
